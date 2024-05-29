@@ -7,7 +7,6 @@ uvicorn
 pypdf
 PyPDF2
 jinja2
-chroma
 qdrant-client
 ctransformers
 python-multipart

@@ -14,9 +14,9 @@ import json
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+#app.mount("/static", StaticFiles(directory="static"), name="static")
 
-local_llm = "meditron-7b.Q4_K_M.gguf"
+local_llm = "meditron-7b.Q2_K.gguf"
 
 config = {
 'max_new_tokens': 1024,
